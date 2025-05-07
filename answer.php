@@ -28,7 +28,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/student_discount.jpg" alt="museum discount" />
+        <img src="./images/card-shop.jpg" alt="card shop" />
       </div>
       <div class="page-content-php">
         <div id="user-info">
