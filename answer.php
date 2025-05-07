@@ -57,10 +57,6 @@
             $basePrice = 22.80;
           }
 
-          $subtotal = $basePrice * $inputAmount;
-          $tax = $subtotal * $SALES_TAX;
-          $total = $subtotal + $tax;
-
           echo "Subtotal: $" . round($subtotal, 2) . "<br>";
           echo "Tax: $" . round($tax, 2) . "<br>";
           echo "Total: $" . round($total, 2) . "<br>";
