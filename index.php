@@ -76,7 +76,7 @@
       <div>Enter how many card packs you want:</div>
       <br />
       <div class="mdl-textfield mdl-js-textfield">
-        <input class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" id="amountOfPacks" />
+        <input class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" name="amountOfPacks" id="amountOfPacks" />
         <label class="mdl-textfield__label" for="amountOfPacks">Number ...</label>
         <span class="mdl-textfield__error">Input is not a number!</span>
       </div>

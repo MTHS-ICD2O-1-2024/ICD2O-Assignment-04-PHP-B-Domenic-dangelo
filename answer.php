@@ -46,40 +46,24 @@
           // process
           if ($cardType == "yuGiOh") {
             $basePrice = 14.90;
-            // output
-            echo "Subtotal: $"(round($subtotal, 2));
-            echo "<br />";
-            echo "Tax: $"(round($tax, 2));
-            echo "<br />";
-            echo "Total: $"(round($total, 2));
             // process
           } else if ($cardType == "pokemon") {
             $basePrice = 12.50;
-            // output
-            echo "Subtotal: $"(round($subtotal, 2));
-            echo "<br />";
-            echo "Tax: $"(round($tax, 2));
-            echo "<br />";
-            echo "Total: $"(round($total, 2));
             // process
           } else if ($cardType == "onePiece") {
             $basePrice = 15.95;
-            // output
-            echo "Subtotal: $"(round($subtotal, 2));
-            echo "<br />";
-            echo "Tax: $"(round($tax, 2));
-            echo "<br />";
-            echo "Total: $"(round($total, 2));
             // process
           } else {
             $basePrice = 22.80;
-            // output
-            echo "Subtotal: $"(round($subtotal, 2));
-            echo "<br />";
-            echo "Tax: $"(round($tax, 2));
-            echo "<br />";
-            echo "Total: $"(round($total, 2));
           }
+
+          $subtotal = $basePrice * $inputAmount;
+          $tax = $subtotal * $SALES_TAX;
+          $total = $subtotal + $tax;
+
+          echo "Subtotal: $" . round($subtotal, 2) . "<br>";
+          echo "Tax: $" . round($tax, 2) . "<br>";
+          echo "Total: $" . round($total, 2) . "<br>";
           ?>
           <div class="page-content-answer">
             <a href="./index.php">Return</a>
